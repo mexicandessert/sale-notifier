@@ -120,7 +120,7 @@ Use [crontab.guru](https://crontab.guru) to build your preferred schedule.
 
 ---
 
-## Brands monitored (31 total)
+## Brands monitored (29 total)
 
 ### Shopify brands (fastest — JSON API)
 | Brand | Domain | Notes |
@@ -129,11 +129,10 @@ Use [crontab.guru](https://crontab.guru) to build your preferred schedule.
 | Buck Mason | buckmason.com | |
 | Aime Leon Dore | aimeleondore.com | ⚠️ Rare sales |
 | Percival | percivalclo.com | ⚠️ Rare sales |
-| Octobre Editions | octobreeditions.com | ⚠️ Rare sales |
 | Wax London | waxlondon.com | |
 | Spier & Mackay | spierandmackay.com | |
 | Our Legacy | ourlegacy.se | |
-| Merz B. Schwanen | merzb-schwanen.com | ⚠️ Rare sales |
+| Merz B. Schwanen | merzbschwanen.com | ⚠️ Rare sales |
 | Alex Mill | alexmill.com | |
 | Noah NYC | noahny.com | ⚠️ Rare sales |
 | NN07 | nn07.com | |
@@ -141,7 +140,6 @@ Use [crontab.guru](https://crontab.guru) to build your preferred schedule.
 | Faherty | fahertybrand.com | |
 | GH Bass | ghbass.com | |
 | Drake's | drakes.com | ⚠️ Rare sales |
-| Morjas | themorjas.com | |
 | Filson | filson.com | |
 
 ### Custom scrapers (HTML / embedded JSON)

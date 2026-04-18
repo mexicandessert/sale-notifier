@@ -42,7 +42,6 @@ LOW_FREQUENCY_BRANDS = {
     "Aime Leon Dore",
     "Noah NYC",
     "Drake's",
-    "Octobre Editions",
     "Percival",
     "Merz B. Schwanen",
 }

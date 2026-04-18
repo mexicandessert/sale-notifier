@@ -12,7 +12,7 @@ Strategy:
 from __future__ import annotations
 
 import time
-import requests
+import cloudscraper
 
 from .base import BaseScraper, SaleInfo
 from size_checker import check_products_for_sizes
@@ -33,6 +33,10 @@ class ShopifyScraper(BaseScraper):
         self.sale_collection = sale_collection
         self.sale_url        = f"https://{self.domain}/collections/{sale_collection}"
         self.low_frequency   = low_frequency
+        # cloudscraper session bypasses Cloudflare bot-detection on Shopify stores
+        self._session = cloudscraper.create_scraper(
+            browser={"browser": "chrome", "platform": "windows", "mobile": False}
+        )
 
     # ------------------------------------------------------------------
     # Public interface
@@ -70,11 +74,18 @@ class ShopifyScraper(BaseScraper):
                 f"https://{self.domain}/collections/{collection}"
                 f"/products.json?limit=250&page={page}"
             )
-            resp = requests.get(url, headers=self.HEADERS, timeout=REQUEST_TIMEOUT)
+            resp = self._session.get(url, timeout=REQUEST_TIMEOUT)
 
             if resp.status_code == 404:
                 return None
             resp.raise_for_status()
+
+            if not resp.text:
+                raise ValueError("Empty response body — likely bot-blocked")
+            if "application/json" not in resp.headers.get("content-type", ""):
+                raise ValueError(
+                    f"Non-JSON response ({resp.status_code}): {resp.text[:120]}"
+                )
 
             batch = resp.json().get("products", [])
             products.extend(batch)

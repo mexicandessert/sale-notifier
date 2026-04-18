@@ -13,11 +13,10 @@ SHOPIFY_BRAND_CONFIGS = [
     ("Buck Mason",        "buckmason.com",          "sale",    False),
     ("Aime Leon Dore",    "aimeleondore.com",       "sale",    True),
     ("Percival",          "percivalclo.com",        "sale",    True),
-    ("Octobre Editions",  "octobreeditions.com",    "sale",    True),
     ("Wax London",        "waxlondon.com",          "sale",    False),
     ("Spier & Mackay",    "spierandmackay.com",     "sale",    False),
     ("Our Legacy",        "ourlegacy.se",           "sale",    False),
-    ("Merz B. Schwanen",  "merzb-schwanen.com",     "sale",    True),
+    ("Merz B. Schwanen",  "merzbschwanen.com",       "sale",    True),
     ("Alex Mill",         "alexmill.com",           "sale",    False),
     ("Noah NYC",          "noahny.com",             "sale",    True),
     ("NN07",              "nn07.com",               "sale",    False),
@@ -25,7 +24,6 @@ SHOPIFY_BRAND_CONFIGS = [
     ("Faherty",           "fahertybrand.com",       "sale",    False),
     ("GH Bass",           "ghbass.com",             "sale",    False),
     ("Drake's",           "drakes.com",             "sale",    True),
-    ("Morjas",            "themorjas.com",          "sale",    False),
     ("Filson",            "filson.com",             "sale",    False),
 ]
 

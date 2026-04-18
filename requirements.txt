@@ -3,6 +3,9 @@ requests>=2.31.0
 beautifulsoup4>=4.12.0
 lxml>=5.1.0
 
+# Cloudflare bypass (used by Shopify scraper to avoid bot-detection blocks)
+cloudscraper>=2.3.7
+
 # Selenium (used by brands with heavily JS-rendered pages)
 selenium>=4.20.0
 webdriver-manager>=4.0.1
