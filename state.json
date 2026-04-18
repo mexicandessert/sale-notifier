@@ -1,4 +1,315 @@
 {
-  "last_run": null,
-  "brands": {}
+  "last_run": "2026-04-18T21:30:38Z",
+  "brands": {
+    "Abercrombie": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://www.abercrombie.com/shop/us/mens-sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "403 Client Error: Forbidden for url: https://www.abercrombie.com/shop/us/mens-sale"
+    },
+    "Aime Leon Dore": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://aimeleondore.com/collections/sale",
+      "low_frequency": true,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Alex Mill": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://alexmill.com/collections/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Asics": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://www.asics.com/us/en-us/sale/",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "403 Client Error: Forbidden for url: https://www.asics.com/us/en-us/sale/"
+    },
+    "Asket": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://www.asket.com/en-us/products/outlet",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "404 Client Error: Not Found for url: https://www.asket.com/en-us/products/outlet"
+    },
+    "Banana Republic": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://bananarepublic.gap.com/browse/sale.do",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "404 Client Error: Not Found for url: https://bananarepublic.gap.com/browse/sale.do"
+    },
+    "Buck Mason": {
+      "is_on_sale": false,
+      "sale_type": "none",
+      "discount_pct": null,
+      "sale_url": "https://buckmason.com",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": null
+    },
+    "Drake's": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://drakes.com/collections/sale",
+      "low_frequency": true,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Faherty": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://fahertybrand.com/collections/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Filson": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://filson.com/collections/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "GH Bass": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://ghbass.com/collections/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Huckberry": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://huckberry.com/store/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "403 Client Error: Forbidden for url: https://huckberry.com/store/sale"
+    },
+    "J.Crew": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://www.jcrew.com/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "403 Client Error: Forbidden for url: https://www.jcrew.com/sale"
+    },
+    "Levi's": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://www.levi.com/US/en_US/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "403 Client Error: Forbidden for url: https://www.levi.com/US/en_US/sale"
+    },
+    "Lululemon": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://www.lululemon.com/en-us/c/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "403 Client Error: Forbidden for url: https://shop.lululemon.com"
+    },
+    "Madewell": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://www.madewell.com/s/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "403 Client Error: Forbidden for url: https://www.madewell.com/s/sale"
+    },
+    "Massimo Dutti": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://www.massimodutti.com/en/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "404 Client Error: Not Found for url: https://www.massimodutti.com/en/sale"
+    },
+    "Merz B. Schwanen": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://merzb-schwanen.com/collections/sale",
+      "low_frequency": true,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: HTTPSConnectionPool(host='merzb-schwanen.com', port=443): Max retries exceeded with url: /collections/sale/products.json?limit=250&page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='merzb-schwanen.com', port=443): Failed to resolve 'merzb-schwanen.com' ([Errno -2] Name or service not known)\"))"
+    },
+    "Morjas": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://themorjas.com/collections/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: HTTPSConnectionPool(host='themorjas.com', port=443): Max retries exceeded with url: /collections/sale/products.json?limit=250&page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='themorjas.com', port=443): Failed to resolve 'themorjas.com' ([Errno -2] Name or service not known)\"))"
+    },
+    "NN07": {
+      "is_on_sale": false,
+      "sale_type": "none",
+      "discount_pct": null,
+      "sale_url": "https://nn07.com",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": null
+    },
+    "Noah NYC": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://noahny.com/collections/sale",
+      "low_frequency": true,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Octobre Editions": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://octobreeditions.com/collections/sale",
+      "low_frequency": true,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: 403 Client Error: HTTP Forbidden for url: https://www.octobre-editions.com:443/?limit=250&page=1"
+    },
+    "Our Legacy": {
+      "is_on_sale": false,
+      "sale_type": "none",
+      "discount_pct": null,
+      "sale_url": "https://ourlegacy.se",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": null
+    },
+    "Percival": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://percivalclo.com/collections/sale",
+      "low_frequency": true,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Polo Ralph Lauren": {
+      "is_on_sale": false,
+      "sale_type": "none",
+      "discount_pct": null,
+      "sale_url": "https://www.ralphlauren.com/en-us/category/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": null
+    },
+    "Proper Cloth": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://propercloth.com/reference/sale-fabrics/",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "404 Client Error: Not Found for url: https://propercloth.com/reference/sale-fabrics/"
+    },
+    "Reiss": {
+      "is_on_sale": false,
+      "sale_type": "none",
+      "discount_pct": null,
+      "sale_url": "https://www.reiss.com/sale/",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": null
+    },
+    "Spier & Mackay": {
+      "is_on_sale": false,
+      "sale_type": "none",
+      "discount_pct": null,
+      "sale_url": "https://spierandmackay.com",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": null
+    },
+    "Taylor Stitch": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://taylorstitch.com/collections/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Todd Snyder": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://toddsnyder.com/collections/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    },
+    "Wax London": {
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
+      "sale_url": "https://waxlondon.com/collections/sale",
+      "low_frequency": false,
+      "last_seen": null,
+      "notified": false,
+      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+    }
+  }
 }
