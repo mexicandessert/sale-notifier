@@ -1,0 +1,71 @@
+name: Sale Monitor
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # Daily at 3 PM UTC (adjust in crontab.guru)
+  workflow_dispatch:
+    inputs:
+      force_notify:
+        description: 'Send Telegram notification even if no new sales detected'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: write   # Required to commit state.json back to the repo
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Ensure Google Chrome is installed
+        run: |
+          if ! command -v google-chrome &> /dev/null; then
+            wget -q -O - https://dl.google.com/linux/linux_signing_key.pub \
+              | gpg --dearmor \
+              | sudo tee /usr/share/keyrings/google-chrome-keyring.gpg > /dev/null
+            echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome-keyring.gpg] \
+              http://dl.google.com/linux/chrome/deb/ stable main" \
+              | sudo tee /etc/apt/sources.list.d/google-chrome.list
+            sudo apt-get update -q
+            sudo apt-get install -y google-chrome-stable
+          fi
+          google-chrome --version
+
+      - name: Run sale monitor
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FORCE_NOTIFY: ${{ github.event.inputs.force_notify || 'false' }}
+        run: python main.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name  "Sale Monitor Bot"
+          git config user.email "sale-monitor-bot@users.noreply.github.com"
+          git add state.json
+          if git diff --staged --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore: update sale state [skip ci]"
+            git push
+          fi

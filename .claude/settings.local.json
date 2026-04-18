@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l scrapers/*.py brands_config.py config.py size_checker.py)",
+      "Bash(python3 -c ':*)",
+      "Bash(pip3 install:*)"
+    ]
+  }
+}
