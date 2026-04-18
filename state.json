@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-18T21:30:38Z",
+  "last_run": "2026-04-18T22:04:06Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -13,23 +13,23 @@
     },
     "Aime Leon Dore": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://aimeleondore.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "Alex Mill": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://alexmill.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "Asics": {
       "is_on_sale": false,
@@ -73,13 +73,13 @@
     },
     "Drake's": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://drakes.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "Faherty": {
       "is_on_sale": false,
@@ -89,27 +89,27 @@
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": "Fetch error: 503 Server Error: Service Unavailable for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=4"
     },
     "Filson": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://filson.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "GH Bass": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://ghbass.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "Huckberry": {
       "is_on_sale": false,
@@ -173,13 +173,13 @@
     },
     "Merz B. Schwanen": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
-      "sale_url": "https://merzb-schwanen.com/collections/sale",
+      "sale_url": "https://merzbschwanen.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: HTTPSConnectionPool(host='merzb-schwanen.com', port=443): Max retries exceeded with url: /collections/sale/products.json?limit=250&page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='merzb-schwanen.com', port=443): Failed to resolve 'merzb-schwanen.com' ([Errno -2] Name or service not known)\"))"
+      "error": null
     },
     "Morjas": {
       "is_on_sale": false,
@@ -203,13 +203,13 @@
     },
     "Noah NYC": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://noahny.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "Octobre Editions": {
       "is_on_sale": false,
@@ -232,14 +232,20 @@
       "error": null
     },
     "Percival": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 75,
       "sale_url": "https://percivalclo.com/collections/sale",
+      "sizes_available": [
+        "L",
+        "XL"
+      ],
+      "has_long_option": false,
       "low_frequency": true,
-      "last_seen": null,
+      "first_detected": "2026-04-18T22:04:06Z",
+      "last_seen": "2026-04-18T22:04:06Z",
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "Polo Ralph Lauren": {
       "is_on_sale": false,
@@ -283,33 +289,42 @@
     },
     "Taylor Stitch": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://taylorstitch.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "Todd Snyder": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 81,
       "sale_url": "https://toddsnyder.com/collections/sale",
+      "sizes_available": [
+        "34x34",
+        "EU 45",
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": true,
       "low_frequency": false,
-      "last_seen": null,
+      "first_detected": "2026-04-18T22:04:06Z",
+      "last_seen": "2026-04-18T22:04:06Z",
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     },
     "Wax London": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://waxlondon.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: Expecting value: line 1 column 1 (char 0)"
+      "error": null
     }
   }
 }
