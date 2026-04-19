@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-18T22:04:06Z",
+  "last_run": "2026-04-19T17:03:35Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -82,14 +82,21 @@
       "error": null
     },
     "Faherty": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 75,
       "sale_url": "https://fahertybrand.com/collections/sale",
+      "sizes_available": [
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": false,
       "low_frequency": false,
-      "last_seen": null,
+      "first_detected": "2026-04-19T17:03:35Z",
+      "last_seen": "2026-04-19T17:03:35Z",
       "notified": false,
-      "error": "Fetch error: 503 Server Error: Service Unavailable for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=4"
+      "error": null
     },
     "Filson": {
       "is_on_sale": false,
@@ -243,7 +250,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-04-18T22:04:06Z",
+      "last_seen": "2026-04-19T17:03:35Z",
       "notified": false,
       "error": null
     },
@@ -312,7 +319,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-04-18T22:04:06Z",
+      "last_seen": "2026-04-19T17:03:35Z",
       "notified": false,
       "error": null
     },
