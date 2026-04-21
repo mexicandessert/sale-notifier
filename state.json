@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-20T18:10:07Z",
+  "last_run": "2026-04-21T18:15:17Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -94,7 +94,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-04-19T17:03:35Z",
-      "last_seen": "2026-04-20T18:10:07Z",
+      "last_seen": "2026-04-21T18:15:17Z",
       "notified": false,
       "error": null
     },
@@ -250,7 +250,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-04-20T18:10:07Z",
+      "last_seen": "2026-04-21T18:15:17Z",
       "notified": false,
       "error": null
     },
@@ -312,6 +312,7 @@
       "sizes_available": [
         "34x34",
         "EU 45",
+        "EU 46",
         "L",
         "US 12",
         "XL"
@@ -319,7 +320,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-04-20T18:10:07Z",
+      "last_seen": "2026-04-21T18:15:17Z",
       "notified": false,
       "error": null
     },
