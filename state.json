@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-04-21T18:15:17Z",
+  "last_run": "2026-04-22T18:16:22Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -84,7 +84,7 @@
     "Faherty": {
       "is_on_sale": true,
       "sale_type": "clearance",
-      "discount_pct": 75,
+      "discount_pct": 79,
       "sale_url": "https://fahertybrand.com/collections/sale",
       "sizes_available": [
         "L",
@@ -94,7 +94,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-04-19T17:03:35Z",
-      "last_seen": "2026-04-21T18:15:17Z",
+      "last_seen": "2026-04-22T18:16:22Z",
       "notified": false,
       "error": null
     },
@@ -250,7 +250,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-04-21T18:15:17Z",
+      "last_seen": "2026-04-22T18:16:22Z",
       "notified": false,
       "error": null
     },
@@ -320,7 +320,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-04-21T18:15:17Z",
+      "last_seen": "2026-04-22T18:16:22Z",
       "notified": false,
       "error": null
     },
