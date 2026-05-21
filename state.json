@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-20T16:12:09Z",
+  "last_run": "2026-05-21T16:06:46Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -82,14 +82,21 @@
       "error": null
     },
     "Faherty": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 79,
       "sale_url": "https://fahertybrand.com/collections/sale",
+      "sizes_available": [
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": false,
       "low_frequency": false,
-      "last_seen": "2026-05-19T16:07:46Z",
+      "first_detected": "2026-05-21T16:06:46Z",
+      "last_seen": "2026-05-21T16:06:46Z",
       "notified": false,
-      "error": "Fetch error: 403 Client Error: Forbidden for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=4"
+      "error": null
     },
     "Filson": {
       "is_on_sale": false,
@@ -103,8 +110,8 @@
     },
     "GH Bass": {
       "is_on_sale": true,
-      "sale_type": "sale",
-      "discount_pct": null,
+      "sale_type": "percent-off",
+      "discount_pct": 49,
       "sale_url": "https://ghbass.com/collections/sale",
       "sizes_available": [
         "US 12"
@@ -112,7 +119,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-05-20T16:12:09Z",
-      "last_seen": "2026-05-20T16:12:09Z",
+      "last_seen": "2026-05-21T16:06:46Z",
       "notified": true,
       "error": null
     },
@@ -249,7 +256,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-05-20T16:12:09Z",
+      "last_seen": "2026-05-21T16:06:46Z",
       "notified": false,
       "error": null
     },
@@ -319,7 +326,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-05-20T16:12:09Z",
+      "last_seen": "2026-05-21T16:06:46Z",
       "notified": false,
       "error": null
     },
