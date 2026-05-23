@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-22T15:54:24Z",
+  "last_run": "2026-05-23T15:25:10Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -112,7 +112,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-05-20T16:12:09Z",
-      "last_seen": "2026-05-22T15:54:24Z",
+      "last_seen": "2026-05-23T15:25:10Z",
       "notified": true,
       "error": null
     },
@@ -249,7 +249,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-05-22T15:54:24Z",
+      "last_seen": "2026-05-23T15:25:10Z",
       "notified": false,
       "error": null
     },
@@ -319,7 +319,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-05-22T15:54:24Z",
+      "last_seen": "2026-05-23T15:25:10Z",
       "notified": false,
       "error": null
     },
