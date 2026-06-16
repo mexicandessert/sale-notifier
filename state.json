@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-15T16:37:10Z",
+  "last_run": "2026-06-16T16:32:36Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -82,23 +82,39 @@
       "error": null
     },
     "Faherty": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 79,
       "sale_url": "https://fahertybrand.com/collections/sale",
+      "sizes_available": [
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": false,
       "low_frequency": false,
-      "last_seen": "2026-06-13T15:33:59Z",
+      "first_detected": "2026-06-16T16:32:36Z",
+      "last_seen": "2026-06-16T16:32:36Z",
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=4"
+      "error": null
     },
     "Filson": {
-      "is_on_sale": false,
-      "sale_type": "none",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "percent-off",
+      "discount_pct": 25,
       "sale_url": "https://filson.com/collections/sale",
+      "sizes_available": [
+        "34x34",
+        "35x34",
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": true,
       "low_frequency": false,
-      "last_seen": null,
-      "notified": false,
+      "first_detected": "2026-06-16T16:32:36Z",
+      "last_seen": "2026-06-16T16:32:36Z",
+      "notified": true,
       "error": null
     },
     "GH Bass": {
@@ -112,7 +128,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-05-20T16:12:09Z",
-      "last_seen": "2026-06-15T16:37:10Z",
+      "last_seen": "2026-06-16T16:32:36Z",
       "notified": true,
       "error": null
     },
@@ -248,7 +264,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-06-15T16:37:10Z",
+      "last_seen": "2026-06-16T16:32:36Z",
       "notified": false,
       "error": null
     },
@@ -318,7 +334,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-06-15T16:37:10Z",
+      "last_seen": "2026-06-16T16:32:36Z",
       "notified": false,
       "error": null
     },
