@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-17T16:17:40Z",
+  "last_run": "2026-06-18T16:10:51Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -82,21 +82,14 @@
       "error": null
     },
     "Faherty": {
-      "is_on_sale": true,
-      "sale_type": "clearance",
-      "discount_pct": 79,
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
       "sale_url": "https://fahertybrand.com/collections/sale",
-      "sizes_available": [
-        "L",
-        "US 12",
-        "XL"
-      ],
-      "has_long_option": false,
       "low_frequency": false,
-      "first_detected": "2026-06-16T16:32:36Z",
       "last_seen": "2026-06-17T16:17:40Z",
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=4"
     },
     "Filson": {
       "is_on_sale": true,
@@ -113,7 +106,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-06-16T16:32:36Z",
-      "last_seen": "2026-06-17T16:17:40Z",
+      "last_seen": "2026-06-18T16:10:51Z",
       "notified": true,
       "error": null
     },
@@ -128,7 +121,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-05-20T16:12:09Z",
-      "last_seen": "2026-06-17T16:17:40Z",
+      "last_seen": "2026-06-18T16:10:51Z",
       "notified": true,
       "error": null
     },
@@ -264,7 +257,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-06-17T16:17:40Z",
+      "last_seen": "2026-06-18T16:10:51Z",
       "notified": false,
       "error": null
     },
@@ -325,7 +318,6 @@
       "sale_url": "https://toddsnyder.com/collections/sale",
       "sizes_available": [
         "34x34",
-        "EU 45",
         "EU 46",
         "L",
         "US 12",
@@ -334,7 +326,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-06-17T16:17:40Z",
+      "last_seen": "2026-06-18T16:10:51Z",
       "notified": false,
       "error": null
     },
