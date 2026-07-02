@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T15:52:40Z",
+  "last_run": "2026-07-02T15:46:51Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -82,14 +82,21 @@
       "error": null
     },
     "Faherty": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 79,
       "sale_url": "https://fahertybrand.com/collections/sale",
+      "sizes_available": [
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": false,
       "low_frequency": false,
-      "last_seen": "2026-06-30T15:51:26Z",
+      "first_detected": "2026-07-02T15:46:51Z",
+      "last_seen": "2026-07-02T15:46:51Z",
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=4"
+      "error": null
     },
     "Filson": {
       "is_on_sale": false,
@@ -112,7 +119,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-05-20T16:12:09Z",
-      "last_seen": "2026-07-01T15:52:40Z",
+      "last_seen": "2026-07-02T15:46:51Z",
       "notified": true,
       "error": null
     },
@@ -249,7 +256,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-07-01T15:52:40Z",
+      "last_seen": "2026-07-02T15:46:51Z",
       "notified": false,
       "error": null
     },
@@ -264,14 +271,19 @@
       "error": null
     },
     "Proper Cloth": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
-      "sale_url": "https://propercloth.com/reference/sale-fabrics/",
+      "is_on_sale": true,
+      "sale_type": "site-wide",
+      "discount_pct": 40,
+      "sale_url": "https://propercloth.com",
+      "sizes_available": [
+        "MTO — enter your measurements on site"
+      ],
+      "has_long_option": false,
       "low_frequency": false,
-      "last_seen": null,
+      "first_detected": "2026-07-02T15:46:51Z",
+      "last_seen": "2026-07-02T15:46:51Z",
       "notified": false,
-      "error": "404 Client Error: Not Found for url: https://propercloth.com/reference/sale-fabrics/"
+      "error": null
     },
     "Reiss": {
       "is_on_sale": true,
@@ -282,7 +294,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-06-24T15:46:36Z",
-      "last_seen": "2026-07-01T15:52:40Z",
+      "last_seen": "2026-07-02T15:46:51Z",
       "notified": true,
       "error": null
     },
@@ -322,7 +334,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-04-18T22:04:06Z",
-      "last_seen": "2026-07-01T15:52:40Z",
+      "last_seen": "2026-07-02T15:46:51Z",
       "notified": false,
       "error": null
     },
