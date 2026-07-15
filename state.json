@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-14T15:30:40Z",
+  "last_run": "2026-07-15T15:30:53Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -13,23 +13,23 @@
     },
     "Aime Leon Dore": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://aimeleondore.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://aimeleondore.com/collections/sale/products.json?limit=250&page=1"
     },
     "Alex Mill": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://alexmill.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://alexmill.com/collections/sale/products.json?limit=250&page=1"
     },
     "Asics": {
       "is_on_sale": false,
@@ -73,13 +73,13 @@
     },
     "Drake's": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://drakes.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://drakes.com/collections/sale/products.json?limit=250&page=1"
     },
     "Faherty": {
       "is_on_sale": false,
@@ -89,32 +89,27 @@
       "low_frequency": false,
       "last_seen": "2026-07-13T15:53:58Z",
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=4"
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=1"
     },
     "Filson": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://filson.com/collections/sale",
       "low_frequency": false,
       "last_seen": "2026-06-22T16:34:29Z",
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://filson.com/collections/sale/products.json?limit=250&page=1"
     },
     "GH Bass": {
-      "is_on_sale": true,
-      "sale_type": "clearance",
-      "discount_pct": 67,
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
       "sale_url": "https://ghbass.com/collections/sale",
-      "sizes_available": [
-        "US 12"
-      ],
-      "has_long_option": false,
       "low_frequency": false,
-      "first_detected": "2026-05-20T16:12:09Z",
       "last_seen": "2026-07-14T15:30:40Z",
-      "notified": true,
-      "error": null
+      "notified": false,
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://ghbass.com/collections/sale/products.json?limit=250&page=1"
     },
     "Huckberry": {
       "is_on_sale": false,
@@ -178,13 +173,13 @@
     },
     "Merz B. Schwanen": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://merzbschwanen.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://merzbschwanen.com/collections/sale/products.json?limit=250&page=1"
     },
     "Morjas": {
       "is_on_sale": false,
@@ -208,13 +203,13 @@
     },
     "Noah NYC": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://noahny.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://noahny.com/collections/sale/products.json?limit=250&page=1"
     },
     "Octobre Editions": {
       "is_on_sale": false,
@@ -237,21 +232,14 @@
       "error": null
     },
     "Percival": {
-      "is_on_sale": true,
-      "sale_type": "clearance",
-      "discount_pct": 75,
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
       "sale_url": "https://percivalclo.com/collections/sale",
-      "sizes_available": [
-        "L",
-        "US 12",
-        "XL"
-      ],
-      "has_long_option": false,
       "low_frequency": true,
-      "first_detected": "2026-04-18T22:04:06Z",
       "last_seen": "2026-07-14T15:30:40Z",
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://percivalclo.com/collections/sale/products.json?limit=250&page=1"
     },
     "Polo Ralph Lauren": {
       "is_on_sale": false,
@@ -282,7 +270,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-06-24T15:46:36Z",
-      "last_seen": "2026-07-14T15:30:40Z",
+      "last_seen": "2026-07-15T15:30:53Z",
       "notified": true,
       "error": null
     },
@@ -298,42 +286,33 @@
     },
     "Taylor Stitch": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://taylorstitch.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://taylorstitch.com/collections/sale/products.json?limit=250&page=1"
     },
     "Todd Snyder": {
-      "is_on_sale": true,
-      "sale_type": "clearance",
-      "discount_pct": 81,
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
       "sale_url": "https://toddsnyder.com/collections/sale",
-      "sizes_available": [
-        "34x34",
-        "EU 46",
-        "L",
-        "US 12",
-        "XL"
-      ],
-      "has_long_option": true,
       "low_frequency": false,
-      "first_detected": "2026-04-18T22:04:06Z",
       "last_seen": "2026-07-14T15:30:40Z",
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://toddsnyder.com/collections/sale/products.json?limit=250&page=1"
     },
     "Wax London": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://waxlondon.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://waxlondon.com/collections/sale/products.json?limit=250&page=1"
     }
   }
 }
