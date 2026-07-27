@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-26T15:24:15Z",
+  "last_run": "2026-07-27T15:52:06Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -13,13 +13,13 @@
     },
     "Aime Leon Dore": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://aimeleondore.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://aimeleondore.com/collections/sale/products.json?limit=250&page=1"
+      "error": null
     },
     "Alex Mill": {
       "is_on_sale": false,
@@ -89,17 +89,17 @@
       "low_frequency": false,
       "last_seen": "2026-07-18T15:20:38Z",
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=1"
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=2"
     },
     "Filson": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://filson.com/collections/sale",
       "low_frequency": false,
       "last_seen": "2026-06-22T16:34:29Z",
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://filson.com/collections/sale/products.json?limit=250&page=1"
     },
     "GH Bass": {
       "is_on_sale": true,
@@ -112,7 +112,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-07-16T15:32:17Z",
-      "last_seen": "2026-07-26T15:24:15Z",
+      "last_seen": "2026-07-27T15:52:06Z",
       "notified": false,
       "error": null
     },
@@ -208,13 +208,13 @@
     },
     "Noah NYC": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://noahny.com/collections/sale",
       "low_frequency": true,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://noahny.com/collections/sale/products.json?limit=250&page=1"
+      "error": null
     },
     "Octobre Editions": {
       "is_on_sale": false,
@@ -249,7 +249,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-07-16T15:32:17Z",
-      "last_seen": "2026-07-26T15:24:15Z",
+      "last_seen": "2026-07-27T15:52:06Z",
       "notified": false,
       "error": null
     },
@@ -274,37 +274,34 @@
       "error": "404 Client Error: Not Found for url: https://propercloth.com/reference/sale-fabrics/"
     },
     "Reiss": {
-      "is_on_sale": true,
-      "sale_type": "clearance",
-      "discount_pct": 60,
+      "is_on_sale": false,
+      "sale_type": "none",
+      "discount_pct": null,
       "sale_url": "https://www.reiss.com/sale/",
-      "sizes_available": [],
-      "has_long_option": false,
       "low_frequency": false,
-      "first_detected": "2026-06-24T15:46:36Z",
       "last_seen": "2026-07-26T15:24:15Z",
-      "notified": true,
+      "notified": false,
       "error": null
     },
     "Spier & Mackay": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
-      "sale_url": "https://spierandmackay.com",
+      "sale_url": "https://spierandmackay.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 403 Client Error: Forbidden for url: https://spierandmackay.com/collections/sale/products.json?limit=250&page=1"
     },
     "Taylor Stitch": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://taylorstitch.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://taylorstitch.com/collections/sale/products.json?limit=250&page=1"
+      "error": null
     },
     "Todd Snyder": {
       "is_on_sale": false,
