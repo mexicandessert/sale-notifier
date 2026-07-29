@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-28T15:45:45Z",
+  "last_run": "2026-07-29T15:37:29Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -23,13 +23,13 @@
     },
     "Alex Mill": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://alexmill.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://alexmill.com/collections/sale/products.json?limit=250&page=1"
     },
     "Asics": {
       "is_on_sale": false,
@@ -102,19 +102,14 @@
       "error": null
     },
     "GH Bass": {
-      "is_on_sale": true,
-      "sale_type": "clearance",
-      "discount_pct": 71,
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
       "sale_url": "https://ghbass.com/collections/sale",
-      "sizes_available": [
-        "US 12"
-      ],
-      "has_long_option": false,
       "low_frequency": false,
-      "first_detected": "2026-07-16T15:32:17Z",
       "last_seen": "2026-07-28T15:45:45Z",
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://ghbass.com/collections/sale/products.json?limit=250&page=1"
     },
     "Huckberry": {
       "is_on_sale": false,
@@ -237,21 +232,14 @@
       "error": null
     },
     "Percival": {
-      "is_on_sale": true,
-      "sale_type": "clearance",
-      "discount_pct": 75,
+      "is_on_sale": false,
+      "sale_type": "error",
+      "discount_pct": null,
       "sale_url": "https://percivalclo.com/collections/sale",
-      "sizes_available": [
-        "L",
-        "US 12",
-        "XL"
-      ],
-      "has_long_option": false,
       "low_frequency": true,
-      "first_detected": "2026-07-16T15:32:17Z",
       "last_seen": "2026-07-28T15:45:45Z",
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://percivalclo.com/collections/sale/products.json?limit=250&page=1"
     },
     "Polo Ralph Lauren": {
       "is_on_sale": false,
@@ -295,33 +283,43 @@
     },
     "Taylor Stitch": {
       "is_on_sale": false,
-      "sale_type": "error",
+      "sale_type": "none",
       "discount_pct": null,
       "sale_url": "https://taylorstitch.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://taylorstitch.com/collections/sale/products.json?limit=250&page=1"
+      "error": null
     },
     "Todd Snyder": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 81,
       "sale_url": "https://toddsnyder.com/collections/sale",
+      "sizes_available": [
+        "34x34",
+        "EU 45",
+        "EU 46",
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": true,
       "low_frequency": false,
-      "last_seen": "2026-07-18T15:20:38Z",
+      "first_detected": "2026-07-29T15:37:29Z",
+      "last_seen": "2026-07-29T15:37:29Z",
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://toddsnyder.com/collections/sale/products.json?limit=250&page=1"
+      "error": null
     },
     "Wax London": {
       "is_on_sale": false,
-      "sale_type": "none",
+      "sale_type": "error",
       "discount_pct": null,
       "sale_url": "https://waxlondon.com/collections/sale",
       "low_frequency": false,
       "last_seen": null,
       "notified": false,
-      "error": null
+      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://waxlondon.com/collections/sale/products.json?limit=250&page=1"
     }
   }
 }
