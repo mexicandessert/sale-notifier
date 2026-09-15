@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-14T15:08:59Z",
+  "last_run": "2026-09-15T15:08:00Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -82,14 +82,21 @@
       "error": null
     },
     "Faherty": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 75,
       "sale_url": "https://fahertybrand.com/collections/sale",
+      "sizes_available": [
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": false,
       "low_frequency": false,
-      "last_seen": "2026-08-30T15:06:52Z",
+      "first_detected": "2026-09-15T15:08:00Z",
+      "last_seen": "2026-09-15T15:08:00Z",
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=3"
+      "error": null
     },
     "Filson": {
       "is_on_sale": true,
@@ -105,7 +112,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-09-12T15:06:28Z",
-      "last_seen": "2026-09-14T15:08:59Z",
+      "last_seen": "2026-09-15T15:08:00Z",
       "notified": true,
       "error": null
     },
@@ -120,7 +127,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-08-05T15:43:51Z",
-      "last_seen": "2026-09-14T15:08:59Z",
+      "last_seen": "2026-09-15T15:08:00Z",
       "notified": false,
       "error": null
     },
@@ -257,7 +264,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-08-05T15:43:51Z",
-      "last_seen": "2026-09-14T15:08:59Z",
+      "last_seen": "2026-09-15T15:08:00Z",
       "notified": false,
       "error": null
     },
@@ -282,13 +289,16 @@
       "error": "404 Client Error: Not Found for url: https://propercloth.com/reference/sale-fabrics/"
     },
     "Reiss": {
-      "is_on_sale": false,
-      "sale_type": "none",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 50,
       "sale_url": "https://www.reiss.com/sale/",
+      "sizes_available": [],
+      "has_long_option": false,
       "low_frequency": false,
-      "last_seen": "2026-07-26T15:24:15Z",
-      "notified": false,
+      "first_detected": "2026-09-15T15:08:00Z",
+      "last_seen": "2026-09-15T15:08:00Z",
+      "notified": true,
       "error": null
     },
     "Spier & Mackay": {
@@ -327,7 +337,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-08-30T15:06:52Z",
-      "last_seen": "2026-09-14T15:08:59Z",
+      "last_seen": "2026-09-15T15:08:00Z",
       "notified": false,
       "error": null
     },
