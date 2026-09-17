@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-16T15:07:20Z",
+  "last_run": "2026-09-17T15:08:13Z",
   "brands": {
     "Abercrombie": {
       "is_on_sale": false,
@@ -82,14 +82,21 @@
       "error": null
     },
     "Faherty": {
-      "is_on_sale": false,
-      "sale_type": "error",
-      "discount_pct": null,
+      "is_on_sale": true,
+      "sale_type": "clearance",
+      "discount_pct": 75,
       "sale_url": "https://fahertybrand.com/collections/sale",
+      "sizes_available": [
+        "L",
+        "US 12",
+        "XL"
+      ],
+      "has_long_option": false,
       "low_frequency": false,
-      "last_seen": "2026-09-15T15:08:00Z",
+      "first_detected": "2026-09-17T15:08:13Z",
+      "last_seen": "2026-09-17T15:08:13Z",
       "notified": false,
-      "error": "Fetch error: 429 Client Error: Too Many Requests for url: https://fahertybrand.com/collections/sale/products.json?limit=250&page=3"
+      "error": null
     },
     "Filson": {
       "is_on_sale": true,
@@ -105,7 +112,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-09-12T15:06:28Z",
-      "last_seen": "2026-09-16T15:07:20Z",
+      "last_seen": "2026-09-17T15:08:13Z",
       "notified": true,
       "error": null
     },
@@ -120,7 +127,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-08-05T15:43:51Z",
-      "last_seen": "2026-09-16T15:07:20Z",
+      "last_seen": "2026-09-17T15:08:13Z",
       "notified": false,
       "error": null
     },
@@ -257,7 +264,7 @@
       "has_long_option": false,
       "low_frequency": true,
       "first_detected": "2026-08-05T15:43:51Z",
-      "last_seen": "2026-09-16T15:07:20Z",
+      "last_seen": "2026-09-17T15:08:13Z",
       "notified": false,
       "error": null
     },
@@ -290,7 +297,7 @@
       "has_long_option": false,
       "low_frequency": false,
       "first_detected": "2026-09-15T15:08:00Z",
-      "last_seen": "2026-09-16T15:07:20Z",
+      "last_seen": "2026-09-17T15:08:13Z",
       "notified": true,
       "error": null
     },
@@ -330,7 +337,7 @@
       "has_long_option": true,
       "low_frequency": false,
       "first_detected": "2026-08-30T15:06:52Z",
-      "last_seen": "2026-09-16T15:07:20Z",
+      "last_seen": "2026-09-17T15:08:13Z",
       "notified": false,
       "error": null
     },
